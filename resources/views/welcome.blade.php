@@ -4,8 +4,14 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Laravel</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="images/favicon/site.webmanifest">
+        <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#2b5797">
+        <meta name="theme-color" content="#ffffff">
+        <title>vmdeloper.com</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -19,6 +25,7 @@
                 font-weight: 100;
                 height: 100vh;
                 margin: 0;
+                -webkit-box-shadow: inset 0px 0px 82px 0px rgba(0,0,0,0.42); box-shadow: inset 0px 0px 82px 0px rgba(0,0,0,0.42);
             }
 
             .full-height {
@@ -62,7 +69,12 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+
+            .img-vmdeloper {
+                max-width: 200px;
+            }
         </style>
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     </head>
     <body>
         <div class="flex-center position-ref full-height">
@@ -77,14 +89,12 @@
                 </div>
             @endif
 
-            <div class="content">
-                <div class="title m-b-md">
-                    Welcome to vmdeloper.com
+            <div class="container">
+                <div class="title">
+                        <img class="img-vmdeloper" src="{{ asset('images/vm.png') }}" alt="vmdeloper logo">
                 </div>
-
-                <div class="links">
-                    <a href="https://web.facebook.com/victormongi">Facebook</a>
-                </div>
+                <p>vmdeloper.com is underconstruction...</p>
+                <p><strong>Made by &#x1F499; and &#x1F642; with &#x1F64F;...</strong> <a href="https://web.facebook.com/victormongi">Victor Mongi</a> &copy; 2018</p>
             </div>
         </div>
     </body>
