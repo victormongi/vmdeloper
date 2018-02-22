@@ -91,7 +91,7 @@
 
             <div class="container">
                 <div class="title">
-                        <img class="img-vmdeloper" src="{{ asset('images/vm.png') }}" alt="vmdeloper logo">
+                        <img class="img-vmdeloper" src="{{ asset('images/vm.gif') }}" alt="vmdeloper logo">
                 </div>
                 <p>vmdeloper.com is underconstruction...</p>
                 <p><strong>Made by &#x1F499; and &#x1F642; with &#x1F64F;...</strong> <a href="https://web.facebook.com/victormongi">Victor Mongi</a> &copy; 2018</p>
