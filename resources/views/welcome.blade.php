@@ -95,6 +95,7 @@
                 </div>
                 <p>Projects:</p>
                 <div class="links"><a href="http://dikbud.vmdeloper.com">DIKBUD App Dev</a></div>
+                <div class="links"><a href="http://dikbudv2.vmdeloper.com">DIKBUD App Dev V2</a></div>
 
                 <br><br><br>
                 <p><strong>Made by &#x1F499; and &#x1F642; with &#x1F64F;...</strong> <a href="https://web.facebook.com/victormongi">Victor Mongi</a> &copy; 2018</p>
