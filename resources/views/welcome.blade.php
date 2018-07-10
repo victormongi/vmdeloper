@@ -91,8 +91,7 @@
 
             <div class="container">
                 <div class="title">
-                        <img class="img-vmdeloper" src="{{ asset('images/vm.gif') }}" alt="vmdeloper logo">
-                <h1>Testtttttt</h1>
+                    <img class="img-vmdeloper" src="{{ asset('images/vm.gif') }}" alt="vmdeloper logo">
                 </div>
                 <p>Projects:</p>
                 <div class="links"><a href="http://dikbud.vmdeloper.com">DIKBUD App Dev</a></div>
